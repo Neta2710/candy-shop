@@ -33,6 +33,10 @@
     }
   } */
 
+html {
+  overflow-x: hidden;
+}
+
 nav {
   font-size: 18px !important;
 }
@@ -80,6 +84,7 @@ h4 {
   margin-top: 1% !important;
 }
 #products {
+  display: inline-block;
   position: relative;
   left: 10%;
   border-color: #7ab730 !important;
@@ -99,16 +104,17 @@ h5 {
 }
 
 #all-cards {
+  justify-content: center;
   display: flex !important;
   flex-wrap: wrap;
-  padding: 35px;
+  padding: 35px 250px;
   gap: 5em !important;
   max-width: 100%;
 }
 .card {
   flex: 1 1 10px !important;
-  width: 90em;
-  /*neta tes un fils de pute */
+  min-width: 115px !important;
+  max-width: 255px !important;
 }
 
 footer {
@@ -155,6 +161,16 @@ footer {
   #logo {
     width: 14% !important;
   }
+  .card-text {
+    font-size: 10px !important;
+  }
+  .card-title {
+    font-size: 14px !important;
+  }
+  #goldenBear {
+    top: -15px;
+    position: relative;
+  }
 }
 
 @media screen and (max-width: 890px) {
@@ -164,12 +180,26 @@ footer {
     margin-right: auto !important;
     max-width: 55% !important;
   }
+.card {
+  width: 55% !important;
+}
 }
 @media screen and (max-width: 800px) {
   #logo {
     width: 25% !important;
   }
+  .card-title {
+    font-size: 12px !important;
+  }
 }
+
+
+/* @media screen and (max-width: 755px) {
+
+} */
+
+
+
 
 @media screen and (max-width: 650px) {
   #textFirstSection {
