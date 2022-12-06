@@ -106,10 +106,11 @@
     flex-wrap: wrap;
     padding: 35px;
     gap: 5em !important;
-    width: 90em;
+    max-width: 100%;
  }
  .card {
     flex: 1 1 10px !important; 
+    width: 90em;
     /*neta tes un fils de pute */
     
  }
