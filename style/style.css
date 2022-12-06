@@ -1,0 +1,128 @@
+/* .navbar-nav {
+    padding-right: 0 !important;
+    right: -95%;
+    position: relative !important;
+}
+
+@media screen and (max-width: 2800px) {
+    .navbar-nav {
+        padding-right: 0 !important;
+        right: -85%;
+        position: relative !important;
+    }
+}
+    @media screen and (max-width: 2200px) {
+        .navbar-nav {
+            padding-right: 0 !important;
+            right: -79%;
+            position: relative !important;
+        }
+    }
+@media screen and (max-width: 1800px) {
+    .navbar-nav {
+        padding-right: 0 !important;
+        right: -70%;
+        position: relative !important;
+    }
+  }
+  @media screen and (max-width: 1205px) {
+    .navbar-nav {
+        padding-right: 0 !important;
+        right: -65%;
+        position: relative !important;
+    }
+  } */
+
+  nav {
+    font-size: 18px !important;
+  }
+
+  #first-section {
+    background-image: url(../assets/background-candy.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+  }
+
+  section {
+    height : 50vh;
+  }
+
+ #textFirstSection {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 40%;
+    padding-top: 15vh;
+  }
+
+  h1 {
+    color: rgb(0, 119, 255); 
+    font-weight: 750 !important;
+  }
+  h3 {
+    color: rgb(34, 34, 34);  
+  }
+  h4 {
+    color: rgb(34, 34, 34);   
+  }
+
+  .btn-outline-info {
+    background-color: #30a2cb4d !important;
+    color: #172ab8 !important;
+    font-weight: 700 !important;
+    font-size: 10px;
+  }
+
+
+ #products-title {
+    position: relative;
+    left: 0.5%;
+    margin-top: 1% !important;
+ 
+ }
+ #products {
+    position: relative;
+    left: 10%;
+    border-color: #7AB730!important;
+    border-left: 4px solid #7AB730!important;  
+ }
+
+ h5 {   
+    color: #457708!important;
+    font-weight: 700 !important;
+ }
+
+ #best-seller {
+    margin-top: -15px !important;
+    left: 0.5%;
+    position: relative;
+    color: black !important;
+ }
+
+ #all-cards {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: 0px 5px;
+    left: 200px !important;
+    margin-bottom: 100px;
+ }
+ .card {
+    margin: 10px 35px!important;
+    
+ }
+
+ footer {
+    position: relative !important;
+    bottom: -100px !important;
+    width: 100% !important;
+    height: 60px !important;   /* Height of the footer */
+    text-align: center;
+ }
+
+#copyright {
+    position: relative !important;
+    top: 26px !important;
+}
