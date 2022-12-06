@@ -109,7 +109,8 @@
     width: 90em;
  }
  .card {
-    flex: 1 1 10px !important;
+    flex: 1 1 10px !important; 
+    /* testttt */
     
  }
 
