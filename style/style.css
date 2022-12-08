@@ -43,11 +43,10 @@ body {
 }
 
 header {
-  flex : 1;
+  flex: 1;
 }
 
 #first-section {
-  flex: 2;
   background-image: url(../assets/background-candy.jpg);
   background-size: cover;
   background-attachment: fixed;
@@ -60,7 +59,7 @@ header {
 }
 
 footer {
-  flex : 4;
+  flex: 4;
   position: relative !important;
   bottom: -100px !important;
   width: 100% !important;
@@ -71,7 +70,6 @@ footer {
 nav {
   font-size: 18px !important;
 }
-
 
 #textFirstSection {
   position: sticky;
@@ -97,6 +95,15 @@ h4 {
   color: #172ab8 !important;
   font-weight: 700 !important;
   font-size: 10px;
+}
+
+.card-body {
+  display: flex;
+  justify-content: center;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem;
+  flex-direction: column;
 }
 
 #products-title {
@@ -138,11 +145,13 @@ h5 {
   max-width: 255px !important;
 }
 
-
-
 #copyright {
   text-align: center;
   justify-content: center;
+}
+
+#goldenBear {
+  top : auto;
 }
 
 @media screen and (max-width: 1285px) {
@@ -198,8 +207,14 @@ h5 {
     padding: 35px 250px;
     gap: 4em !important;
     max-width: 100%;
+  }
 }
-  
+
+@media screen and (max-width: 1360) {
+  #goldenBear {
+    top: -2.5%;
+    position: relative;
+  }
 }
 
 @media screen and (max-width: 890px) {
@@ -209,9 +224,9 @@ h5 {
     margin-right: auto !important;
     max-width: 55% !important;
   }
-.card {
-  width: 55% !important;
-}
+  .card {
+    width: 55% !important;
+  }
 }
 @media screen and (max-width: 800px) {
   #logo {
@@ -222,13 +237,9 @@ h5 {
   }
 }
 
-
 /* @media screen and (max-width: 755px) {
 
 } */
-
-
-
 
 @media screen and (max-width: 650px) {
   #textFirstSection {
@@ -272,5 +283,12 @@ h5 {
 @media screen and (max-width: 200px) {
   h4 {
     display: none !important;
+  }
+}
+
+
+@media screen and (min-width: 1600px){
+  #goldenBear {
+    top : 0px !important;
   }
 }
