@@ -37,20 +37,41 @@ html {
   overflow-x: hidden;
 }
 
-nav {
-  font-size: 18px !important;
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  flex : 1;
 }
 
 #first-section {
+  flex: 2;
   background-image: url(../assets/background-candy.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
-}
-
-section {
   height: 50vh;
 }
+
+#seconde-section {
+  flex: 3;
+}
+
+footer {
+  flex : 4;
+  position: relative !important;
+  bottom: -100px !important;
+  width: 100% !important;
+  height: 60px !important; /* Height of the footer */
+  text-align: center;
+}
+
+nav {
+  font-size: 18px !important;
+}
+
 
 #textFirstSection {
   position: sticky;
@@ -117,13 +138,7 @@ h5 {
   max-width: 255px !important;
 }
 
-footer {
-  position: relative !important;
-  bottom: -100px !important;
-  width: 100% !important;
-  height: 60px !important; /* Height of the footer */
-  text-align: center;
-}
+
 
 #copyright {
   text-align: center;
@@ -171,6 +186,20 @@ footer {
     top: -15px;
     position: relative;
   }
+  .card {
+    flex: 1 1 10px !important;
+    min-width: 205px !important;
+    max-width: 255px !important;
+  }
+  #all-cards {
+    justify-content: center;
+    display: flex !important;
+    flex-wrap: wrap;
+    padding: 35px 250px;
+    gap: 4em !important;
+    max-width: 100%;
+}
+  
 }
 
 @media screen and (max-width: 890px) {
