@@ -176,7 +176,7 @@ h5 {
 
 @media screen and (max-width: 1005px) {
   #textFirstSection {
-    top: 18% !important;
+    /* top: 18% !important; */
   }
   h1 {
     font-size: 1.8rem !important;
@@ -223,9 +223,7 @@ h5 {
 
 @media screen and (max-width: 890px) {
   #textFirstSection {
-    margin-left: auto !important;
-    margin-right: auto !important;
-    max-width: 55% !important;
+    /* max-width: 55% !important; */
   }
   .card {
     width: 55% !important;
@@ -245,25 +243,19 @@ h5 {
     font-size: 1.5rem !important;
   }
   #textFirstSection {
-    margin: -3em 0px 0px 0px;
+    /* margin: -3em 0px 0px 0px; */
   }
 }
 
-@media screen and (max-width: 650px) {
-  #textFirstSection {
-
-    margin-left: auto !important;
-    margin-right: auto !important;
-    max-width: 65% !important;
-  }
+@media screen and (max-width: 450px) {
+h4 {
+  display: none !important;;
+}
 }
 
 @media screen and (max-width: 546px) {
   #textFirstSection {
-
-    margin-left: auto !important;
-    margin-right: auto !important;
-    max-width: 75% !important;
+    /* max-width: 75% !important; */
   }
   h1 {
     font-size: 1.4rem !important;
@@ -281,7 +273,7 @@ h5 {
 
 @media screen and (max-width: 325px) {
   #textFirstSection {
-    top: 12% !important;
+    /* top: 12% !important; */
   }
   #logo {
     width: 50% !important;
@@ -304,19 +296,19 @@ h5 {
 
 @media screen and ( max-height: 600px ){
   #textFirstSection {
-    top :18% ;
+    /* top :18% ; */
   }
 }
 
 @media screen and ( max-height: 530px){
   #textFirstSection {
-    top :16% !important;
+    /* top :16% !important; */
   }
 }
 
 @media screen and ( max-height: 490px){
   #textFirstSection {
-    top :15% !important;
+    /* top :15% !important; */
   }
 }
 
