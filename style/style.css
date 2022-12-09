@@ -47,11 +47,12 @@ header {
 }
 
 #first-section {
+  display: flex;
   background-image: url(../assets/background-candy.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  height: 50vh;
+  height: 60vh;
   padding: 4em;
 }
 
