@@ -47,6 +47,7 @@ header {
 }
 
 #first-section {
+  justify-content: center;
   display: flex;
   background-image: url(../assets/background-candy.jpg);
   background-size: cover;
@@ -74,10 +75,9 @@ nav {
 }
 
 #textFirstSection {
-  left: 30%;
   position: relative;
   display: flex;
-  max-width: 40%;
+  max-width: 100%;
   flex-direction: column;
   align-items: center;
   text-align: center;
