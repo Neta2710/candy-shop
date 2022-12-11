@@ -160,6 +160,39 @@ h5 {
   top: auto;
 }
 
+#popUp {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  background-color: rgba(85, 85, 85, 0.651);
+  display:none;
+  justify-content: center;
+  align-items: center;
+}
+
+#paymentPage {
+  background-color: azure;
+  height: 80%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+}
+
+#test {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#iconClose {
+ position: absolute;
+ right: 0;
+ margin: 20px;
+}
+
+
 
 
 @media screen and (max-width: 1285px) {

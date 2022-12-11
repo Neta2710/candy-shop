@@ -12,10 +12,7 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <link
-      rel="stylesheet"
-      href="path/to/font-awesome/css/font-awesome.min.css"
-    />
+
     <link rel="shortcut icon" href="assets/dollar.png" type="image/x-icon" />
   </head>
   <body>
@@ -28,6 +25,7 @@
           style="width: 10%"
           id="logo"
         />
+        
         <button
           class="navbar-toggler"
           type="button"
@@ -84,7 +82,7 @@
     </header>
     <section id="first-section">
       <div id="textFirstSection">
-        <h1>Bienvenue au Candy-Shop</h1>
+      <h1>Bienvenue au Candy-Shop </h1>
         <h3>Les meilleurs bonbons du monde !</h3>
         <h4>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur
@@ -110,7 +108,7 @@
         <div class="card-body">
           <h5 class="card-title">Dragibus</h5>
           <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident</p>
-          <a href="#" class="btn btn-primary">Achetez</a>
+          <a href='javascript:void()' class="btn btn-primary" id="buyPage">Achetez</a>
         </div>
       </div>
  
@@ -120,7 +118,7 @@
         <div class="card-body">
           <h5 class="card-title">Fizz Ball</h5>
           <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident</p>
-          <a href="#" class="btn btn-primary">Achetez</a>
+          <a href='javascript:void()' class="btn btn-primary" id="buyPage">Achetez</a>
         </div>
       </div>
     
@@ -131,7 +129,7 @@
             <br>
           <h5 class="card-title">Golden bear</h5>
           <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident</p>
-          <a href="#" class="btn btn-primary">Achetez</a>
+          <a href='javascript:void()' class="btn btn-primary" id="buyPage">Achetez</a>
         </div>
       </div>
     
@@ -141,20 +139,29 @@
         <div class="card-body">
           <h5 class="card-title">Cerises</h5>
           <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident</p>
-          <a href="#" class="btn btn-primary">Achetez</a>
+          <a href='javascript:void()' class="btn btn-primary" id="buyPage">Achetez</a>
         </div>
 
     </div>
     
     </section>
-    <footer>
-       <p id="copyright">
+    <footer onclick="test()">
+       <p id="copyright" >
             Copyright 2022 © Tout les droits sont reserver à Mr Chetrit.
             <a href="tel:+33650427201">0650427201</a>  |
             <a href="mailto:ChetritNetanael@gmail.com" id="mail">
                 ChetritNetanael@gmail.com</a>
        </p>
     </footer>
+
+    <div id="popUp">
+      <div id="paymentPage">
+        <svg  xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-x-circle-fill" viewBox="0 0 16 16" id="iconClose" >
+          <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293 5.354 4.646z"/>
+        </svg>
+        <H1 id="test">Buy page</h1>
+      </div>
+    </div>
 
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
