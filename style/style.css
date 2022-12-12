@@ -173,7 +173,7 @@ h5 {
 
 #paymentPage {
   background-color: azure;
-  height: 80%;
+  height: 90%;
   width: 50%;
   display: flex;
   justify-content: center;
@@ -192,7 +192,9 @@ h5 {
  margin: 20px;
 }
 
-
+#serviceFrameSend {
+  height: 100%;
+}
 
 
 @media screen and (max-width: 1285px) {
